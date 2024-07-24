@@ -1,0 +1,35 @@
+  .num{
+   position: relative;
+   top: 26px;
+   left: 33px
+
+}
+
+.boards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 1060px;
+  }
+  
+  .card {
+    width: 318px;
+    height: 123px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .textBoard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rightArrow {
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  
