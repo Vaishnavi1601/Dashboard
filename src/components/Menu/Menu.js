@@ -22,7 +22,7 @@ const MenuContainer = styled('div')(({ theme }) => ({
 }));
 
 const MenuItems = styled(List)(({ theme }) => ({
-  flex: 1, // Takes up remaining space
+  flex: 1, 
 }));
 
 const MenuButton = styled(Button)(({ theme }) => ({

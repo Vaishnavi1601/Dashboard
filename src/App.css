@@ -1,28 +1,26 @@
-/* Reset default margin and padding */
 body, html, #root {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow: hidden; /* Prevent overflow */
+  overflow: hidden; 
 }
 
-/* Full-height flex container */
 .app-container {
   display: flex;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 .menu-container {
   width: 259px;
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0; 
 }
 
 .content-container {
-  flex: 1; /* Take the remaining space */
+  flex: 1; 
   background: #DBE7E5;
   display: flex;
   flex-direction: column;
-  overflow: auto; /* Allow scrolling if content overflows */
+  overflow: auto; 
   padding-top: 20px;
 }
 

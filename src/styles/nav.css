@@ -26,7 +26,7 @@
   .buttons {
     display: flex;
     align-items: center;
-    gap: 16px; /* Adjust spacing between buttons as needed */
+    gap: 16px; 
   }
   
   .circle-icon, .BlackCircle, .WhiteCircle {

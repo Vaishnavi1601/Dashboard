@@ -1,8 +1,6 @@
 import React from 'react';
 import { TextField, MenuItem, IconButton, InputAdornment, Button, Stack } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import FilterListIcon from '@mui/icons-material/FilterList';
-import DownloadIcon from '@mui/icons-material/Download';
 import arrowUp from "../../icons8-up-50.png";
 import arrowDown from "../../icons8-down-50.png"
 import download from "../../icons8-download-24.png"
@@ -26,7 +24,7 @@ function SearchAdd() {
         }}>
             
           <TextField
-            variant="standard" // Use standard variant for underline
+            variant="standard" 
             placeholder="Search..."
             style={{ flex: 1, marginRight: '16px' }}
             InputProps={{
@@ -37,7 +35,7 @@ function SearchAdd() {
               ),
               style: { 
                 marginLeft:"21px",
-                borderBottom: '1px solid #ccc', // Underline style
+                borderBottom: '1px solid #ccc',
               },
             }}
           />
